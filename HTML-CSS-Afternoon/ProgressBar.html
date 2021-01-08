@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Progress Bar</title>
+        <style>
+            #ProgressBar{
+                position: relative;
+                height: 40px;
+                
+               
+               
+                animation-name: moveBox;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes moveBox {
+               from{
+                    background-color: red;
+                    
+                    width:0px;
+                    
+                }
+                
+               
+                to{
+                    background-color: green;
+                    width:500px;
+                    
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <h3>Progress: </h3><br>
+        <div style="height: 40px; width: 500px; border: solid;">
+            <div id="ProgressBar">
+            </div>
+        </div>
+    </body>
+</html>
