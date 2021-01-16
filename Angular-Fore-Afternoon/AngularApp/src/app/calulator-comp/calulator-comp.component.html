@@ -1,0 +1,48 @@
+
+<head>
+    <style>
+        #buttons{
+          margin: 10px;
+          padding: 10px;
+        }
+        .btn{
+          margin-left: 10px;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">            
+            <div class="col-sm" style="text-align: center"><h2 class="display-4">Calculator</h2></div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+                <label>Number 1 </label>
+                <input id="num1" style="margin-left: 10px;"  [(ngModel)]="num1" placeholder="Number 1" />
+            </div>
+            <div class="col-sm"></div>
+            <div class="col-sm"><label>Number 2</label>
+                <input id = "num2"  style="margin-left: 10px;" [(ngModel)]="num2" placeholder="Number 2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm"> 
+                <div id="buttons">
+                <button class= "btn" (click)="addition()">ADD</button>
+                <button class= "btn" (click)="subtraction()">SUB</button>
+                <button class= "btn" (click)="multiply()">MUL</button>
+                <button class= "btn" (click)="divide()">DIV</button>
+                </div>
+            </div>
+            <div class="col-sm"></div>
+          </div>
+          <div class="row ">
+            <div class="col-sm"></div>
+            <div class="col-sm" style="text-align: center" > 
+                <label style=" font-size: 30px;">Answer:</label><label style="margin-left: 20px; font-weight: bold; font-size: 30px;" >{{ result }}</label>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+    </div>
+</body>
