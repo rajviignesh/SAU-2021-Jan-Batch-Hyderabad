@@ -1,0 +1,17 @@
+<assignments>
+    <assignment id="1">
+        <name>basics of git</name>
+        <prog_lang>cli</prog_lang>
+        <status_update>completed</status_update>
+    </assignment>
+    <assignment id="2">
+        <name>react native</name>
+        <prog_lang>javascript</prog_lang>
+        <status_update>completed</status_update>
+    </assignment>
+    <assignment id="3">
+        <name>advanced java</name>
+        <prog_lang>java</prog_lang>
+        <status_update>In progress</status_update>
+    </assignment>
+</assignments>
